@@ -1,0 +1,23 @@
+# datasets (not bundled; see data/README.md for download links)
+data/*
+!data/README.md
+
+# runtime / local
+logs/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# generated LaTeX table fragments (scripts/make_tables.py)
+tables/
+
+# intermediate calibration snapshots (not for distribution)
+*.pre_calib
+
+# secrets
+.env
+*.key

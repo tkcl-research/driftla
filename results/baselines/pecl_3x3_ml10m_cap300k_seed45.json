@@ -1,0 +1,186 @@
+{
+  "method": "PECL streaming (full graph per batch)",
+  "warmup_epochs": 3,
+  "epochs_per_stream_batch": 3,
+  "warmup_time_s": 658.2,
+  "stream_time_s": 12092.4,
+  "total_time_s": 12750.6,
+  "peak_gpu_mb": 99.6,
+  "batches": [
+    {
+      "batch": 1,
+      "n_interactions": 15000,
+      "metrics": {
+        "Recall@10": 0.07061952491255027,
+        "Recall@20": 0.11504131596515364,
+        "NDCG@10": 0.11983903871704799,
+        "NDCG@20": 0.12203930667701708
+      },
+      "loss": 0.5775195518393575,
+      "timings": {
+        "rebuild_adj_s": 0.15,
+        "train_s": 745.94,
+        "total_s": 746.18
+      },
+      "peak_gpu_mb": 77.2
+    },
+    {
+      "batch": 2,
+      "n_interactions": 15000,
+      "metrics": {
+        "Recall@10": 0.057334084897709726,
+        "Recall@20": 0.09739319858987525,
+        "NDCG@10": 0.12339306238765124,
+        "NDCG@20": 0.1219100337943491
+      },
+      "loss": 0.559982864129724,
+      "timings": {
+        "rebuild_adj_s": 0.17,
+        "train_s": 832.59,
+        "total_s": 832.81
+      },
+      "peak_gpu_mb": 79.5
+    },
+    {
+      "batch": 3,
+      "n_interactions": 15000,
+      "metrics": {
+        "Recall@10": 0.06593629717994222,
+        "Recall@20": 0.11583965372941861,
+        "NDCG@10": 0.12857276898646644,
+        "NDCG@20": 0.13101936742707873
+      },
+      "loss": 0.549850918042163,
+      "timings": {
+        "rebuild_adj_s": 0.18,
+        "train_s": 935.02,
+        "total_s": 935.25
+      },
+      "peak_gpu_mb": 82.4
+    },
+    {
+      "batch": 4,
+      "n_interactions": 15000,
+      "metrics": {
+        "Recall@10": 0.06666243377954112,
+        "Recall@20": 0.10693724369271093,
+        "NDCG@10": 0.12247083741779018,
+        "NDCG@20": 0.12269124153436622
+      },
+      "loss": 0.5508503366056768,
+      "timings": {
+        "rebuild_adj_s": 0.18,
+        "train_s": 1035.8,
+        "total_s": 1036.03
+      },
+      "peak_gpu_mb": 84.9
+    },
+    {
+      "batch": 5,
+      "n_interactions": 15000,
+      "metrics": {
+        "Recall@10": 0.054533714487916156,
+        "Recall@20": 0.10247645505920215,
+        "NDCG@10": 0.1155142285842965,
+        "NDCG@20": 0.11737466695636546
+      },
+      "loss": 0.5531978592728123,
+      "timings": {
+        "rebuild_adj_s": 0.3,
+        "train_s": 1136.77,
+        "total_s": 1137.18
+      },
+      "peak_gpu_mb": 87.5
+    },
+    {
+      "batch": 6,
+      "n_interactions": 15000,
+      "metrics": {
+        "Recall@10": 0.062189927294329365,
+        "Recall@20": 0.11216734828700947,
+        "NDCG@10": 0.1018773020156295,
+        "NDCG@20": 0.10948322369935524
+      },
+      "loss": 0.5386896570355205,
+      "timings": {
+        "rebuild_adj_s": 0.21,
+        "train_s": 1250.65,
+        "total_s": 1250.91
+      },
+      "peak_gpu_mb": 90.6
+    },
+    {
+      "batch": 7,
+      "n_interactions": 15000,
+      "metrics": {
+        "Recall@10": 0.05883417066227925,
+        "Recall@20": 0.09885816843991553,
+        "NDCG@10": 0.10248841724334817,
+        "NDCG@20": 0.10593358872248482
+      },
+      "loss": 0.5494266460736592,
+      "timings": {
+        "rebuild_adj_s": 0.24,
+        "train_s": 1350.34,
+        "total_s": 1350.73
+      },
+      "peak_gpu_mb": 90.7
+    },
+    {
+      "batch": 8,
+      "n_interactions": 15000,
+      "metrics": {
+        "Recall@10": 0.05315402698516777,
+        "Recall@20": 0.09984471258582953,
+        "NDCG@10": 0.11981740251741843,
+        "NDCG@20": 0.12369255777539556
+      },
+      "loss": 0.575380585560895,
+      "timings": {
+        "rebuild_adj_s": 0.24,
+        "train_s": 1464.9,
+        "total_s": 1465.21
+      },
+      "peak_gpu_mb": 95.5
+    },
+    {
+      "batch": 9,
+      "n_interactions": 15000,
+      "metrics": {
+        "Recall@10": 0.04382040443629026,
+        "Recall@20": 0.0845553270188824,
+        "NDCG@10": 0.08094353644074466,
+        "NDCG@20": 0.08704723332145603
+      },
+      "loss": 0.6086064653027625,
+      "timings": {
+        "rebuild_adj_s": 0.25,
+        "train_s": 1606.14,
+        "total_s": 1606.47
+      },
+      "peak_gpu_mb": 97.4
+    },
+    {
+      "batch": 10,
+      "n_interactions": 15000,
+      "metrics": {
+        "Recall@10": 0.057308649851896765,
+        "Recall@20": 0.10295643966313421,
+        "NDCG@10": 0.09359891394710473,
+        "NDCG@20": 0.10197567702369996
+      },
+      "loss": 0.5913759030722706,
+      "timings": {
+        "rebuild_adj_s": 0.33,
+        "train_s": 1731.21,
+        "total_s": 1731.63
+      },
+      "peak_gpu_mb": 99.6
+    }
+  ],
+  "dataset": "ml-10m",
+  "seed": 45,
+  "device": "cuda",
+  "avg_recall10": 0.059039323448762296,
+  "avg_ndcg10": 0.11085155082574978
+}
